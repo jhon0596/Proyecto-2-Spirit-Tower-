@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/jrodr/CLionProjects/PruebaServer/main.cpp" "C:/Users/jrodr/CLionProjects/PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/main.cpp.obj"
+  "C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/main.cpp" "C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

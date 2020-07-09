@@ -6,8 +6,20 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/jrodr/CLionProjects/PruebaServer/main.cpp
+C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/main.cpp
 iostream
+-
+vector
+-
+list
+-
+string
+-
+thread
+-
+WinSock2.h
+-
+ws2ipdef.h
 -
 WS2tcpip.h
 -

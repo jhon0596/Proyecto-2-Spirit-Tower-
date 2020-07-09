@@ -44,10 +44,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\jrodr\CLionProjects\PruebaServer
+CMAKE_SOURCE_DIR = C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\jrodr\CLionProjects\PruebaServer\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\PruebaServer.dir\depend.make
@@ -60,21 +60,21 @@ include CMakeFiles\PruebaServer.dir\flags.make
 
 CMakeFiles\PruebaServer.dir\main.cpp.obj: CMakeFiles\PruebaServer.dir\flags.make
 CMakeFiles\PruebaServer.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jrodr\CLionProjects\PruebaServer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PruebaServer.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PruebaServer.dir/main.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\PruebaServer.dir\main.cpp.obj /FdCMakeFiles\PruebaServer.dir\ /FS -c C:\Users\jrodr\CLionProjects\PruebaServer\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\PruebaServer.dir\main.cpp.obj /FdCMakeFiles\PruebaServer.dir\ /FS -c C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\main.cpp
 <<
 
 CMakeFiles\PruebaServer.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PruebaServer.dir/main.cpp.i"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\PruebaServer.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jrodr\CLionProjects\PruebaServer\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\main.cpp
 <<
 
 CMakeFiles\PruebaServer.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PruebaServer.dir/main.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\PruebaServer.dir\main.cpp.s /c C:\Users\jrodr\CLionProjects\PruebaServer\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\PruebaServer.dir\main.cpp.s /c C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\main.cpp
 <<
 
 # Object files for target PruebaServer
@@ -87,9 +87,9 @@ PruebaServer_EXTERNAL_OBJECTS =
 PruebaServer.exe: CMakeFiles\PruebaServer.dir\main.cpp.obj
 PruebaServer.exe: CMakeFiles\PruebaServer.dir\build.make
 PruebaServer.exe: CMakeFiles\PruebaServer.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jrodr\CLionProjects\PruebaServer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PruebaServer.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PruebaServer.exe"
 	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\PruebaServer.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\PruebaServer.dir\objects1.rsp @<<
- /out:PruebaServer.exe /implib:PruebaServer.lib /pdb:C:\Users\jrodr\CLionProjects\PruebaServer\cmake-build-debug\PruebaServer.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:PruebaServer.exe /implib:PruebaServer.lib /pdb:C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\cmake-build-debug\PruebaServer.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -102,6 +102,6 @@ CMakeFiles\PruebaServer.dir\clean:
 .PHONY : CMakeFiles\PruebaServer.dir\clean
 
 CMakeFiles\PruebaServer.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\jrodr\CLionProjects\PruebaServer C:\Users\jrodr\CLionProjects\PruebaServer C:\Users\jrodr\CLionProjects\PruebaServer\cmake-build-debug C:\Users\jrodr\CLionProjects\PruebaServer\cmake-build-debug C:\Users\jrodr\CLionProjects\PruebaServer\cmake-build-debug\CMakeFiles\PruebaServer.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\cmake-build-debug C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\cmake-build-debug C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\cmake-build-debug\CMakeFiles\PruebaServer.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\PruebaServer.dir\depend
 
