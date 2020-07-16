@@ -84,6 +84,39 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/Espectro.cpp">
+			<Option target="PruebaServer"/>
+		</Unit>
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/Espectro.h">
+			<Option target="PruebaServer"/>
+		</Unit>
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/ListaEspectros.cpp">
+			<Option target="PruebaServer"/>
+		</Unit>
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/ListaEspectros.h">
+			<Option target="PruebaServer"/>
+		</Unit>
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/NodoEspectro.cpp">
+			<Option target="PruebaServer"/>
+		</Unit>
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/NodoEspectro.h">
+			<Option target="PruebaServer"/>
+		</Unit>
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/Utilities.cpp">
+			<Option target="PruebaServer"/>
+		</Unit>
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/Utilities.h">
+			<Option target="PruebaServer"/>
+		</Unit>
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/algoritmoGenetico.cpp">
+			<Option target="PruebaServer"/>
+		</Unit>
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/algoritmoGenetico.h">
+			<Option target="PruebaServer"/>
+		</Unit>
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/stdc++.h">
+			<Option target="PruebaServer"/>
+		</Unit>
 		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/main.cpp">
 			<Option target="PruebaServer"/>
 		</Unit>
