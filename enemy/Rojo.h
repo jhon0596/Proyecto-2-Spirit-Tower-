@@ -12,7 +12,10 @@ private:
     int campo_iluminacion;
 
 public:
-    void get_campo_iluminacion();
+    Rojo(int campo_vision,LinkedList *ruta, Node *posicion, int v_ruta, int v_patrulla,int campo_iluminacion);
+    int getCampoIluminacion() const;
+
+    void setCampoIluminacion(int campoIluminacion);
 };
 
 

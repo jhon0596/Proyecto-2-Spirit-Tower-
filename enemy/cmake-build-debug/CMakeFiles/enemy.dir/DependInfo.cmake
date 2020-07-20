@@ -5,10 +5,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/cygdrive/c/Users/grero/CLionProjects/enemy/Azul.cpp" "/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles/enemy.dir/Azul.cpp.o"
+  "/cygdrive/c/Users/grero/CLionProjects/enemy/Chuchu.cpp" "/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles/enemy.dir/Chuchu.cpp.o"
   "/cygdrive/c/Users/grero/CLionProjects/enemy/Enemigo.cpp" "/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles/enemy.dir/Enemigo.cpp.o"
   "/cygdrive/c/Users/grero/CLionProjects/enemy/Espectro.cpp" "/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles/enemy.dir/Espectro.cpp.o"
   "/cygdrive/c/Users/grero/CLionProjects/enemy/LinkedList.cpp" "/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles/enemy.dir/LinkedList.cpp.o"
   "/cygdrive/c/Users/grero/CLionProjects/enemy/Node.cpp" "/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles/enemy.dir/Node.cpp.o"
+  "/cygdrive/c/Users/grero/CLionProjects/enemy/Ojo.cpp" "/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles/enemy.dir/Ojo.cpp.o"
+  "/cygdrive/c/Users/grero/CLionProjects/enemy/Raton.cpp" "/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles/enemy.dir/Raton.cpp.o"
   "/cygdrive/c/Users/grero/CLionProjects/enemy/Rojo.cpp" "/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles/enemy.dir/Rojo.cpp.o"
   "/cygdrive/c/Users/grero/CLionProjects/enemy/main.cpp" "/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles/enemy.dir/main.cpp.o"
   )

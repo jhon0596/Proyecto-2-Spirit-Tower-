@@ -117,3 +117,8 @@ Node* LinkedList::backtracking() {
     deletelast();
     return current;
 }
+
+void LinkedList::deletehead() {
+    this->head = this->head->getNext();
+
+}

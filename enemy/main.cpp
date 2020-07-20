@@ -2,6 +2,11 @@
 #include "LinkedList.h"
 #include "Node.h"
 #include "Espectro.h"
+#include "Rojo.h"
+#include "Azul.h"
+#include "Raton.h"
+#include "Chuchu.h"
+#include "Ojo.h"
 int main() {
     std::cout << "Hello, World!" << std::endl;
     LinkedList *list = new LinkedList();
@@ -78,6 +83,19 @@ int main() {
     list2->addNode(3,7);
     list2->addNode(3,8);
 
+    LinkedList *list3 = new LinkedList();
+    list3->addNode(3,9);
+    list3->addNode(4,9);
+    list3->addNode(5,9);
+    list3->addNode(6,9);
+    list3->addNode(7,9);
+    list3->addNode(8,9);
+    list3->addNode(9,9);
+    list3->addNode(9,8);
+    list3->addNode(9,7);
+    list3->addNode(9,6);
+    list3->addNode(9,5);
+
     Node *v = new Node();
     Node *inicio = new Node();
     inicio->set_x(1);
@@ -86,28 +104,52 @@ int main() {
     final->set_x(0);
     final->set_y(0);
     Espectro *gris = new Espectro(40,list,v,4,23);
+    Rojo *rojo = new Rojo(40,list1,v,4,23,16);
+    Azul *azul = new Azul(40,list2,v,4,23);
+    Node* z = new Node();
+    z->set_x(11);
+    z->set_y(3);
+    Raton *raton = new Raton(40,z);
+    Node* t = new Node();
+    t->set_x(11);
+    t->set_y(3);
+    Node* q = new Node();
+    q->set_x(3);
+    q->set_y(11);
+    Chuchu *chuchu = new Chuchu(t);
+    Ojo *ojo = new Ojo(40,list3,v,4,4);
    // gris->pathfinding(inicio, final);
     int i = 0;
     while (i != 30){
-        if (i == 3){
-           final->set_x(13);
-           final->set_y(17);
-        }
-        if (i == 10){
-            final->set_x(0);
-            final->set_y(0);
-        }
         if (final->get_x() != 0 && final->get_y() != 0){
             gris->pathfinding(gris->get_pos(), final);
-        }
-        gris->move();
-        std::cout << "x: " + to_string(gris->get_pos()->get_x()) + " Y:  " + to_string(gris->get_pos()->get_y()) << std::endl;
-       /* gris->pathfinding(gris->get_rutacorta()->getLast(), final);
-        Node* aux = gris->move();
-        std::cout << "x: " + to_string(aux->get_x()) + " Y:  " + to_string(aux->get_y()) << std::endl;
-       */ i++;
+            rojo->pathfinding(rojo->get_pos(),final);
+         //   azul->pathfinding(azul->get_pos(),final);
 
+        }
+
+        gris->move();
+        std::cout << "GRIS x: " + to_string(gris->get_pos()->get_x()) + " Y:  " + to_string(gris->get_pos()->get_y()) << std::endl;
+        rojo->move();
+        std::cout << "ROJO x: " + to_string(rojo->get_pos()->get_x()) + " Y:  " + to_string(rojo->get_pos()->get_y()) << std::endl;
+      /*
+        azul->move();
+        std::cout << "AZUL x: " + to_string(azul->get_pos()->get_x()) + " Y:  " + to_string(azul->get_pos()->get_y()) << std::endl;
+        raton->move();
+        std::cout << "RATON x: " + to_string(raton->get_posicion()->get_x()) + " Y:  " + to_string(raton->get_posicion()->get_y()) << std::endl;
+        chuchu->bre(q);
+        chuchu->move();
+        std::cout << "CHUCHU x: " + to_string(chuchu->get_posicion()->get_x()) + " Y:  " + to_string(chuchu->get_posicion()->get_y()) << std::endl;
+       */
+        ojo->moverandom();
+        if (ojo->get_movilidad()){
+        ojo->move();
+        }
+        std::cout << "OJO x: " + to_string(ojo->get_pos()->get_x()) + " Y:  " + to_string(ojo->get_pos()->get_y()) << std::endl;
+
+        i++;
     }
-    gris->get_rutacorta()->printList();
+
+
     return 0;
 }

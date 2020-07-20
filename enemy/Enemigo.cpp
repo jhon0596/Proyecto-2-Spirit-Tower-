@@ -13,18 +13,18 @@ void Enemigo::set_campo_vision(int campo) {
     this->campo_vision = campo;
 }
 
-void Enemigo::set_posicion(Node *pos) {
-    this->posicion = *pos;
+void Enemigo::set_posicion(Node* pos) {
+    this->posicion = pos;
 }
 
-Node Enemigo::get_posicion() {
+Node* Enemigo::get_posicion() {
     return this->posicion;
 }
 
-LinkedList Enemigo::get_ruta() {
+LinkedList * Enemigo::get_ruta() {
     return this->ruta;
 }
 
 void Enemigo::set_ruta(LinkedList *route) {
-    this->ruta = *route;
+    this->ruta = route;
 }

@@ -148,6 +148,45 @@ CMakeFiles/enemy.dir/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enemy.dir/LinkedList.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/grero/CLionProjects/enemy/LinkedList.cpp -o CMakeFiles/enemy.dir/LinkedList.cpp.s
 
+CMakeFiles/enemy.dir/Chuchu.cpp.o: CMakeFiles/enemy.dir/flags.make
+CMakeFiles/enemy.dir/Chuchu.cpp.o: ../Chuchu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/enemy.dir/Chuchu.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enemy.dir/Chuchu.cpp.o -c /cygdrive/c/Users/grero/CLionProjects/enemy/Chuchu.cpp
+
+CMakeFiles/enemy.dir/Chuchu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enemy.dir/Chuchu.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/grero/CLionProjects/enemy/Chuchu.cpp > CMakeFiles/enemy.dir/Chuchu.cpp.i
+
+CMakeFiles/enemy.dir/Chuchu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enemy.dir/Chuchu.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/grero/CLionProjects/enemy/Chuchu.cpp -o CMakeFiles/enemy.dir/Chuchu.cpp.s
+
+CMakeFiles/enemy.dir/Raton.cpp.o: CMakeFiles/enemy.dir/flags.make
+CMakeFiles/enemy.dir/Raton.cpp.o: ../Raton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/enemy.dir/Raton.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enemy.dir/Raton.cpp.o -c /cygdrive/c/Users/grero/CLionProjects/enemy/Raton.cpp
+
+CMakeFiles/enemy.dir/Raton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enemy.dir/Raton.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/grero/CLionProjects/enemy/Raton.cpp > CMakeFiles/enemy.dir/Raton.cpp.i
+
+CMakeFiles/enemy.dir/Raton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enemy.dir/Raton.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/grero/CLionProjects/enemy/Raton.cpp -o CMakeFiles/enemy.dir/Raton.cpp.s
+
+CMakeFiles/enemy.dir/Ojo.cpp.o: CMakeFiles/enemy.dir/flags.make
+CMakeFiles/enemy.dir/Ojo.cpp.o: ../Ojo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/enemy.dir/Ojo.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enemy.dir/Ojo.cpp.o -c /cygdrive/c/Users/grero/CLionProjects/enemy/Ojo.cpp
+
+CMakeFiles/enemy.dir/Ojo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enemy.dir/Ojo.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/grero/CLionProjects/enemy/Ojo.cpp > CMakeFiles/enemy.dir/Ojo.cpp.i
+
+CMakeFiles/enemy.dir/Ojo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enemy.dir/Ojo.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/grero/CLionProjects/enemy/Ojo.cpp -o CMakeFiles/enemy.dir/Ojo.cpp.s
+
 # Object files for target enemy
 enemy_OBJECTS = \
 "CMakeFiles/enemy.dir/main.cpp.o" \
@@ -156,7 +195,10 @@ enemy_OBJECTS = \
 "CMakeFiles/enemy.dir/Rojo.cpp.o" \
 "CMakeFiles/enemy.dir/Azul.cpp.o" \
 "CMakeFiles/enemy.dir/Node.cpp.o" \
-"CMakeFiles/enemy.dir/LinkedList.cpp.o"
+"CMakeFiles/enemy.dir/LinkedList.cpp.o" \
+"CMakeFiles/enemy.dir/Chuchu.cpp.o" \
+"CMakeFiles/enemy.dir/Raton.cpp.o" \
+"CMakeFiles/enemy.dir/Ojo.cpp.o"
 
 # External object files for target enemy
 enemy_EXTERNAL_OBJECTS =
@@ -168,9 +210,12 @@ enemy.exe: CMakeFiles/enemy.dir/Rojo.cpp.o
 enemy.exe: CMakeFiles/enemy.dir/Azul.cpp.o
 enemy.exe: CMakeFiles/enemy.dir/Node.cpp.o
 enemy.exe: CMakeFiles/enemy.dir/LinkedList.cpp.o
+enemy.exe: CMakeFiles/enemy.dir/Chuchu.cpp.o
+enemy.exe: CMakeFiles/enemy.dir/Raton.cpp.o
+enemy.exe: CMakeFiles/enemy.dir/Ojo.cpp.o
 enemy.exe: CMakeFiles/enemy.dir/build.make
 enemy.exe: CMakeFiles/enemy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable enemy.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/grero/CLionProjects/enemy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable enemy.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/enemy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

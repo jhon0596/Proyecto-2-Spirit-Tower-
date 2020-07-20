@@ -18,10 +18,8 @@ Espectro::Espectro(int campo_vision, LinkedList *ruta, Node *posicion, int v_rut
     this->set_posicion(posicion);
     this->set_v_ruta(v_ruta);
     this->set_v_patrulla(v_patrulla);
-    this->posruta = new LinkedList();
-    this->rutacorta = new LinkedList();
-    this->pos->set_x(this->get_ruta().getHead()->get_x()) ;
-    this->pos->set_y(this->get_ruta().getHead()->get_y());
+    this->pos->set_x(this->get_ruta()->getHead()->get_x()) ;
+    this->pos->set_y(this->get_ruta()->getHead()->get_y());
     this->contador = 0;
 }
 
@@ -47,8 +45,8 @@ Node* Espectro::move() {
             return nullptr;
         }
     }
-    else if (movpos < this->get_ruta().getSize() && movneg == 0){
-        Node* aux = this->get_ruta().getNode(movpos);
+    else if (movpos < this->get_ruta()->getSize() && movneg == 0){
+        Node* aux = this->get_ruta()->getNode(movpos);
         movpos++;
         this->pos = aux;
         contador = 0;
@@ -59,8 +57,8 @@ Node* Espectro::move() {
         contador = 0;
         movneg = 1;
         movpos --;
-        this->pos = this->get_ruta().getNode(movpos);
-        return this->get_ruta().getNode(movpos);
+        this->pos = this->get_ruta()->getNode(movpos);
+        return this->get_ruta()->getNode(movpos);
     }
     if (movpos == 0 && movneg == 1){
         movneg = 0;
@@ -296,6 +294,31 @@ void Espectro::set_rutacorta(LinkedList *route) {
 
 Node *Espectro::get_pos() {
     return this->pos;
+}
+
+Espectro::Espectro() {
+
+}
+
+void Espectro::set_contador(int contador) {
+    this->contador = contador;
+
+}
+
+int Espectro::get_contador() {
+    return this->contador;
+}
+
+void Espectro::set_pos(Node *pos) {
+    this->pos = pos;
+}
+
+void Espectro::set_posruta(LinkedList *posruta) {
+    this->posruta = posruta;
+}
+
+LinkedList *Espectro::get_posruta() {
+    return this->posruta;
 }
 
 

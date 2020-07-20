@@ -4,6 +4,7 @@
 #include<cstddef>
 #include "Node.h"
 #include <string>
+#include <iostream>
 using namespace std;
 
 
@@ -25,5 +26,6 @@ public:
     void printList();
     void deletelast();
     Node* backtracking();
+    void deletehead();
 };
 #endif

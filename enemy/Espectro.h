@@ -18,8 +18,8 @@
 class Espectro: public Enemigo {
 private:
     Node* pos = new Node();
-    LinkedList* posruta;
-    LinkedList* rutacorta;
+    LinkedList* posruta = new LinkedList();
+    LinkedList* rutacorta = new LinkedList();
     int contador;
     int v_patrulla;
     int v_ruta;
@@ -43,6 +43,7 @@ private:
     }node[FILA][COLUMNA];
 public:
     Espectro(int campo_vision,LinkedList *ruta, Node *posicion, int v_ruta, int v_patrulla);
+    Espectro();
     int get_v_patrulla();
     void set_v_patrulla(int vPatrulla);
     int get_v_ruta();
@@ -57,6 +58,11 @@ public:
     LinkedList* get_rutacorta();
     void set_rutacorta(LinkedList* route);
     Node* get_pos();
+    void set_contador(int contador);
+    int get_contador();
+    void set_pos(Node* pos);
+    void set_posruta(LinkedList* posruta);
+    LinkedList* get_posruta();
 
 };
 
