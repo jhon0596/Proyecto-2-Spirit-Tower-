@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PruebaServer.dir/AlgoritmoGenetico/Espectro.cpp.obj"
-  "CMakeFiles/PruebaServer.dir/AlgoritmoGenetico/ListaEspectros.cpp.obj"
-  "CMakeFiles/PruebaServer.dir/AlgoritmoGenetico/NodoEspectro.cpp.obj"
-  "CMakeFiles/PruebaServer.dir/AlgoritmoGenetico/Utilities.cpp.obj"
-  "CMakeFiles/PruebaServer.dir/AlgoritmoGenetico/algoritmoGenetico.cpp.obj"
+  "CMakeFiles/PruebaServer.dir/algoritmoGenetico/Espectro.cpp.obj"
+  "CMakeFiles/PruebaServer.dir/algoritmoGenetico/Simulacion.cpp.obj"
+  "CMakeFiles/PruebaServer.dir/algoritmoGenetico/algoritmoGenetico.cpp.obj"
   "CMakeFiles/PruebaServer.dir/main.cpp.obj"
   "PruebaServer.exe"
   "PruebaServer.exe.manifest"

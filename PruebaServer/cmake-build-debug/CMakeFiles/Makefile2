@@ -75,12 +75,12 @@ clean: CMakeFiles\PruebaServer.dir\clean
 CMakeFiles\PruebaServer.dir\all:
 	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\depend
 	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target PruebaServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target PruebaServer"
 .PHONY : CMakeFiles\PruebaServer.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\PruebaServer.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\cmake-build-debug\CMakeFiles 5
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jrodr\OneDrive\Escritorio\servidor\Proyecto-2-Spirit-Tower-\PruebaServer\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\PruebaServer.dir\rule

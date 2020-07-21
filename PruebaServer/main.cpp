@@ -1,3 +1,6 @@
+
+#include "AlgoritmoGenetico/Simulacion.h"
+
 #include <iostream>
 #include <WS2tcpip.h>
 #include <string>
@@ -5,11 +8,15 @@
 #pragma comment (lib, "ws2_32.lib")
 
 using namespace std;
-
 void main()
 {
-    // Initialze winsock
-    WSADATA wsData;
+    Simulacion *simulacion = new Simulacion();
+    simulacion->crearEspectros();
+    simulacion->verEspectros();
+    simulacion->EspectroGeneraciones();
+    std::cout<<"--------------\n";
+    simulacion->verEspectros();
+    /*WSADATA wsData;
     WORD ver = MAKEWORD(2, 2);
 
     int wsOk = WSAStartup(ver, &wsData);
@@ -53,6 +60,7 @@ void main()
     if (getnameinfo((sockaddr*)&client, sizeof(client), host, NI_MAXHOST, service, NI_MAXSERV, 0) == 0)
     {
         cout << host << " connected on port " << service << endl;
+
     }
     else
     {
@@ -77,6 +85,7 @@ void main()
         {
             cerr << "Error in recv(). Quitting" << endl;
             break;
+
         }
 
         if (bytesReceived == 0)
@@ -98,7 +107,12 @@ void main()
     // Cleanup winsock
     WSACleanup();
 
-    system("pause");
+    system("pause");*/
+
+
+
+
 }
+
 
 

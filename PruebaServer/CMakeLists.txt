@@ -3,5 +3,5 @@ project(PruebaServer)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PruebaServer main.cpp main.cpp AlgoritmoGenetico/algoritmoGenetico.cpp AlgoritmoGenetico/algoritmoGenetico.h AlgoritmoGenetico/ListaEspectros.cpp AlgoritmoGenetico/ListaEspectros.h AlgoritmoGenetico/Espectro.cpp AlgoritmoGenetico/Espectro.h AlgoritmoGenetico/NodoEspectro.cpp AlgoritmoGenetico/NodoEspectro.h AlgoritmoGenetico/stdc++.h AlgoritmoGenetico/Utilities.cpp AlgoritmoGenetico/Utilities.h)
+add_executable(PruebaServer main.cpp main.cpp algoritmoGenetico/algoritmoGenetico.cpp algoritmoGenetico/algoritmoGenetico.h algoritmoGenetico/Espectro.cpp algoritmoGenetico/Espectro.h algoritmoGenetico/LinkendList.h algoritmoGenetico/Node.h algoritmoGenetico/Utilities.h algoritmoGenetico/Simulacion.cpp algoritmoGenetico/Simulacion.h algoritmoGenetico/stdc++.h)
 

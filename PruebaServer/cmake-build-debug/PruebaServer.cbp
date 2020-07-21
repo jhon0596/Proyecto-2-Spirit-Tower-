@@ -84,37 +84,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/Espectro.cpp">
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/algoritmoGenetico/Espectro.cpp">
 			<Option target="PruebaServer"/>
 		</Unit>
-		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/Espectro.h">
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/algoritmoGenetico/Espectro.h">
 			<Option target="PruebaServer"/>
 		</Unit>
-		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/ListaEspectros.cpp">
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/algoritmoGenetico/LinkendList.h">
 			<Option target="PruebaServer"/>
 		</Unit>
-		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/ListaEspectros.h">
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/algoritmoGenetico/Node.h">
 			<Option target="PruebaServer"/>
 		</Unit>
-		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/NodoEspectro.cpp">
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/algoritmoGenetico/Simulacion.cpp">
 			<Option target="PruebaServer"/>
 		</Unit>
-		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/NodoEspectro.h">
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/algoritmoGenetico/Simulacion.h">
 			<Option target="PruebaServer"/>
 		</Unit>
-		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/Utilities.cpp">
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/algoritmoGenetico/Utilities.h">
 			<Option target="PruebaServer"/>
 		</Unit>
-		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/Utilities.h">
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/algoritmoGenetico/algoritmoGenetico.cpp">
 			<Option target="PruebaServer"/>
 		</Unit>
-		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/algoritmoGenetico.cpp">
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/algoritmoGenetico/algoritmoGenetico.h">
 			<Option target="PruebaServer"/>
 		</Unit>
-		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/algoritmoGenetico.h">
-			<Option target="PruebaServer"/>
-		</Unit>
-		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/AlgoritmoGenetico/stdc++.h">
+		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/algoritmoGenetico/stdc++.h">
 			<Option target="PruebaServer"/>
 		</Unit>
 		<Unit filename="C:/Users/jrodr/OneDrive/Escritorio/servidor/Proyecto-2-Spirit-Tower-/PruebaServer/main.cpp">

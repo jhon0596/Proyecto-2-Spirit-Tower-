@@ -124,140 +124,86 @@ PruebaServer\fast:
 	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\build
 .PHONY : PruebaServer\fast
 
-AlgoritmoGenetico\Espectro.obj: AlgoritmoGenetico\Espectro.cpp.obj
+algoritmoGenetico\Espectro.obj: algoritmoGenetico\Espectro.cpp.obj
 
-.PHONY : AlgoritmoGenetico\Espectro.obj
-
-# target to build an object file
-AlgoritmoGenetico\Espectro.cpp.obj:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\Espectro.cpp.obj
-.PHONY : AlgoritmoGenetico\Espectro.cpp.obj
-
-AlgoritmoGenetico\Espectro.i: AlgoritmoGenetico\Espectro.cpp.i
-
-.PHONY : AlgoritmoGenetico\Espectro.i
-
-# target to preprocess a source file
-AlgoritmoGenetico\Espectro.cpp.i:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\Espectro.cpp.i
-.PHONY : AlgoritmoGenetico\Espectro.cpp.i
-
-AlgoritmoGenetico\Espectro.s: AlgoritmoGenetico\Espectro.cpp.s
-
-.PHONY : AlgoritmoGenetico\Espectro.s
-
-# target to generate assembly for a file
-AlgoritmoGenetico\Espectro.cpp.s:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\Espectro.cpp.s
-.PHONY : AlgoritmoGenetico\Espectro.cpp.s
-
-AlgoritmoGenetico\ListaEspectros.obj: AlgoritmoGenetico\ListaEspectros.cpp.obj
-
-.PHONY : AlgoritmoGenetico\ListaEspectros.obj
+.PHONY : algoritmoGenetico\Espectro.obj
 
 # target to build an object file
-AlgoritmoGenetico\ListaEspectros.cpp.obj:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\ListaEspectros.cpp.obj
-.PHONY : AlgoritmoGenetico\ListaEspectros.cpp.obj
+algoritmoGenetico\Espectro.cpp.obj:
+	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\algoritmoGenetico\Espectro.cpp.obj
+.PHONY : algoritmoGenetico\Espectro.cpp.obj
 
-AlgoritmoGenetico\ListaEspectros.i: AlgoritmoGenetico\ListaEspectros.cpp.i
+algoritmoGenetico\Espectro.i: algoritmoGenetico\Espectro.cpp.i
 
-.PHONY : AlgoritmoGenetico\ListaEspectros.i
+.PHONY : algoritmoGenetico\Espectro.i
 
 # target to preprocess a source file
-AlgoritmoGenetico\ListaEspectros.cpp.i:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\ListaEspectros.cpp.i
-.PHONY : AlgoritmoGenetico\ListaEspectros.cpp.i
+algoritmoGenetico\Espectro.cpp.i:
+	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\algoritmoGenetico\Espectro.cpp.i
+.PHONY : algoritmoGenetico\Espectro.cpp.i
 
-AlgoritmoGenetico\ListaEspectros.s: AlgoritmoGenetico\ListaEspectros.cpp.s
+algoritmoGenetico\Espectro.s: algoritmoGenetico\Espectro.cpp.s
 
-.PHONY : AlgoritmoGenetico\ListaEspectros.s
+.PHONY : algoritmoGenetico\Espectro.s
 
 # target to generate assembly for a file
-AlgoritmoGenetico\ListaEspectros.cpp.s:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\ListaEspectros.cpp.s
-.PHONY : AlgoritmoGenetico\ListaEspectros.cpp.s
+algoritmoGenetico\Espectro.cpp.s:
+	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\algoritmoGenetico\Espectro.cpp.s
+.PHONY : algoritmoGenetico\Espectro.cpp.s
 
-AlgoritmoGenetico\NodoEspectro.obj: AlgoritmoGenetico\NodoEspectro.cpp.obj
+algoritmoGenetico\Simulacion.obj: algoritmoGenetico\Simulacion.cpp.obj
 
-.PHONY : AlgoritmoGenetico\NodoEspectro.obj
+.PHONY : algoritmoGenetico\Simulacion.obj
 
 # target to build an object file
-AlgoritmoGenetico\NodoEspectro.cpp.obj:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\NodoEspectro.cpp.obj
-.PHONY : AlgoritmoGenetico\NodoEspectro.cpp.obj
+algoritmoGenetico\Simulacion.cpp.obj:
+	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\algoritmoGenetico\Simulacion.cpp.obj
+.PHONY : algoritmoGenetico\Simulacion.cpp.obj
 
-AlgoritmoGenetico\NodoEspectro.i: AlgoritmoGenetico\NodoEspectro.cpp.i
+algoritmoGenetico\Simulacion.i: algoritmoGenetico\Simulacion.cpp.i
 
-.PHONY : AlgoritmoGenetico\NodoEspectro.i
+.PHONY : algoritmoGenetico\Simulacion.i
 
 # target to preprocess a source file
-AlgoritmoGenetico\NodoEspectro.cpp.i:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\NodoEspectro.cpp.i
-.PHONY : AlgoritmoGenetico\NodoEspectro.cpp.i
+algoritmoGenetico\Simulacion.cpp.i:
+	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\algoritmoGenetico\Simulacion.cpp.i
+.PHONY : algoritmoGenetico\Simulacion.cpp.i
 
-AlgoritmoGenetico\NodoEspectro.s: AlgoritmoGenetico\NodoEspectro.cpp.s
+algoritmoGenetico\Simulacion.s: algoritmoGenetico\Simulacion.cpp.s
 
-.PHONY : AlgoritmoGenetico\NodoEspectro.s
+.PHONY : algoritmoGenetico\Simulacion.s
 
 # target to generate assembly for a file
-AlgoritmoGenetico\NodoEspectro.cpp.s:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\NodoEspectro.cpp.s
-.PHONY : AlgoritmoGenetico\NodoEspectro.cpp.s
+algoritmoGenetico\Simulacion.cpp.s:
+	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\algoritmoGenetico\Simulacion.cpp.s
+.PHONY : algoritmoGenetico\Simulacion.cpp.s
 
-AlgoritmoGenetico\Utilities.obj: AlgoritmoGenetico\Utilities.cpp.obj
+algoritmoGenetico\algoritmoGenetico.obj: algoritmoGenetico\algoritmoGenetico.cpp.obj
 
-.PHONY : AlgoritmoGenetico\Utilities.obj
+.PHONY : algoritmoGenetico\algoritmoGenetico.obj
 
 # target to build an object file
-AlgoritmoGenetico\Utilities.cpp.obj:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\Utilities.cpp.obj
-.PHONY : AlgoritmoGenetico\Utilities.cpp.obj
+algoritmoGenetico\algoritmoGenetico.cpp.obj:
+	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\algoritmoGenetico\algoritmoGenetico.cpp.obj
+.PHONY : algoritmoGenetico\algoritmoGenetico.cpp.obj
 
-AlgoritmoGenetico\Utilities.i: AlgoritmoGenetico\Utilities.cpp.i
+algoritmoGenetico\algoritmoGenetico.i: algoritmoGenetico\algoritmoGenetico.cpp.i
 
-.PHONY : AlgoritmoGenetico\Utilities.i
-
-# target to preprocess a source file
-AlgoritmoGenetico\Utilities.cpp.i:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\Utilities.cpp.i
-.PHONY : AlgoritmoGenetico\Utilities.cpp.i
-
-AlgoritmoGenetico\Utilities.s: AlgoritmoGenetico\Utilities.cpp.s
-
-.PHONY : AlgoritmoGenetico\Utilities.s
-
-# target to generate assembly for a file
-AlgoritmoGenetico\Utilities.cpp.s:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\Utilities.cpp.s
-.PHONY : AlgoritmoGenetico\Utilities.cpp.s
-
-AlgoritmoGenetico\algoritmoGenetico.obj: AlgoritmoGenetico\algoritmoGenetico.cpp.obj
-
-.PHONY : AlgoritmoGenetico\algoritmoGenetico.obj
-
-# target to build an object file
-AlgoritmoGenetico\algoritmoGenetico.cpp.obj:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\algoritmoGenetico.cpp.obj
-.PHONY : AlgoritmoGenetico\algoritmoGenetico.cpp.obj
-
-AlgoritmoGenetico\algoritmoGenetico.i: AlgoritmoGenetico\algoritmoGenetico.cpp.i
-
-.PHONY : AlgoritmoGenetico\algoritmoGenetico.i
+.PHONY : algoritmoGenetico\algoritmoGenetico.i
 
 # target to preprocess a source file
-AlgoritmoGenetico\algoritmoGenetico.cpp.i:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\algoritmoGenetico.cpp.i
-.PHONY : AlgoritmoGenetico\algoritmoGenetico.cpp.i
+algoritmoGenetico\algoritmoGenetico.cpp.i:
+	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\algoritmoGenetico\algoritmoGenetico.cpp.i
+.PHONY : algoritmoGenetico\algoritmoGenetico.cpp.i
 
-AlgoritmoGenetico\algoritmoGenetico.s: AlgoritmoGenetico\algoritmoGenetico.cpp.s
+algoritmoGenetico\algoritmoGenetico.s: algoritmoGenetico\algoritmoGenetico.cpp.s
 
-.PHONY : AlgoritmoGenetico\algoritmoGenetico.s
+.PHONY : algoritmoGenetico\algoritmoGenetico.s
 
 # target to generate assembly for a file
-AlgoritmoGenetico\algoritmoGenetico.cpp.s:
-	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\AlgoritmoGenetico\algoritmoGenetico.cpp.s
-.PHONY : AlgoritmoGenetico\algoritmoGenetico.cpp.s
+algoritmoGenetico\algoritmoGenetico.cpp.s:
+	$(MAKE) -f CMakeFiles\PruebaServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PruebaServer.dir\algoritmoGenetico\algoritmoGenetico.cpp.s
+.PHONY : algoritmoGenetico\algoritmoGenetico.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -295,21 +241,15 @@ help:
 	@echo ... PruebaServer
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... AlgoritmoGenetico/Espectro.obj
-	@echo ... AlgoritmoGenetico/Espectro.i
-	@echo ... AlgoritmoGenetico/Espectro.s
-	@echo ... AlgoritmoGenetico/ListaEspectros.obj
-	@echo ... AlgoritmoGenetico/ListaEspectros.i
-	@echo ... AlgoritmoGenetico/ListaEspectros.s
-	@echo ... AlgoritmoGenetico/NodoEspectro.obj
-	@echo ... AlgoritmoGenetico/NodoEspectro.i
-	@echo ... AlgoritmoGenetico/NodoEspectro.s
-	@echo ... AlgoritmoGenetico/Utilities.obj
-	@echo ... AlgoritmoGenetico/Utilities.i
-	@echo ... AlgoritmoGenetico/Utilities.s
-	@echo ... AlgoritmoGenetico/algoritmoGenetico.obj
-	@echo ... AlgoritmoGenetico/algoritmoGenetico.i
-	@echo ... AlgoritmoGenetico/algoritmoGenetico.s
+	@echo ... algoritmoGenetico/Espectro.obj
+	@echo ... algoritmoGenetico/Espectro.i
+	@echo ... algoritmoGenetico/Espectro.s
+	@echo ... algoritmoGenetico/Simulacion.obj
+	@echo ... algoritmoGenetico/Simulacion.i
+	@echo ... algoritmoGenetico/Simulacion.s
+	@echo ... algoritmoGenetico/algoritmoGenetico.obj
+	@echo ... algoritmoGenetico/algoritmoGenetico.i
+	@echo ... algoritmoGenetico/algoritmoGenetico.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
