@@ -118,35 +118,51 @@ int main() {
     q->set_y(11);
     Chuchu *chuchu = new Chuchu(t);
     Ojo *ojo = new Ojo(40,list3,v,4,4);
-   // gris->pathfinding(inicio, final);
     int i = 0;
     while (i != 30){
+        if(i == 5){
+            final->set_x(13);
+            final->set_y(19);
+        }
+        if(i == 13){
+            final->set_x(0);
+            final->set_y(0);
+        }
         if (final->get_x() != 0 && final->get_y() != 0){
-            gris->pathfinding(gris->get_pos(), final);
-            rojo->pathfinding(rojo->get_pos(),final);
-         //   azul->pathfinding(azul->get_pos(),final);
+              gris->pathfinding(gris->get_pos(), final);
+            //rojo->pathfinding(rojo->get_pos(),final);
+            /*
+           if(i ==5 ){
+               azul->teletransportar(ojo->get_pos());
 
-        }
+           }
+             azul->pathfinding(azul->get_pos(),final);
+*/
 
-        gris->move();
-        std::cout << "GRIS x: " + to_string(gris->get_pos()->get_x()) + " Y:  " + to_string(gris->get_pos()->get_y()) << std::endl;
-        rojo->move();
-        std::cout << "ROJO x: " + to_string(rojo->get_pos()->get_x()) + " Y:  " + to_string(rojo->get_pos()->get_y()) << std::endl;
-      /*
-        azul->move();
-        std::cout << "AZUL x: " + to_string(azul->get_pos()->get_x()) + " Y:  " + to_string(azul->get_pos()->get_y()) << std::endl;
-        raton->move();
-        std::cout << "RATON x: " + to_string(raton->get_posicion()->get_x()) + " Y:  " + to_string(raton->get_posicion()->get_y()) << std::endl;
-        chuchu->bre(q);
-        chuchu->move();
-        std::cout << "CHUCHU x: " + to_string(chuchu->get_posicion()->get_x()) + " Y:  " + to_string(chuchu->get_posicion()->get_y()) << std::endl;
+       }
+
+            gris->move();
+            std::cout << "GRIS x: " + to_string(gris->get_pos()->get_x()) + " Y:  " + to_string(gris->get_pos()->get_y()) << std::endl;
+/*
+            rojo->move();
+            std::cout << "ROJO x: " + to_string(rojo->get_pos()->get_x()) + " Y:  " + to_string(rojo->get_pos()->get_y()) << std::endl;
+
+            azul->move();
+            std::cout << "AZUL x: " + to_string(azul->get_pos()->get_x()) + " Y:  " + to_string(azul->get_pos()->get_y()) << std::endl;
+
+            raton->move();
+            std::cout << "RATON x: " + to_string(raton->get_posicion()->get_x()) + " Y:  " + to_string(raton->get_posicion()->get_y()) << std::endl;
+            chuchu->bre(q);
+            chuchu->move();
+            std::cout << "CHUCHU x: " + to_string(chuchu->get_posicion()->get_x()) + " Y:  " + to_string(chuchu->get_posicion()->get_y()) << std::endl;
+
+            ojo->moverandom();
+            if (ojo->get_movilidad()){
+            ojo->move();
+              }
+
+            std::cout << "OJO x: " + to_string(ojo->get_pos()->get_x()) + " Y:  " + to_string(ojo->get_pos()->get_y()) << std::endl;
        */
-        ojo->moverandom();
-        if (ojo->get_movilidad()){
-        ojo->move();
-        }
-        std::cout << "OJO x: " + to_string(ojo->get_pos()->get_x()) + " Y:  " + to_string(ojo->get_pos()->get_y()) << std::endl;
-
         i++;
     }
 
