@@ -11,7 +11,8 @@ class Azul: public Espectro {
 private:
 
 public:
-    void teletransportar();
+    Azul(int campo_vision,LinkedList *ruta, Node *posicion, int v_ruta, int v_patrulla);
+    void teletransportar(Node* pos);
 
 };
 

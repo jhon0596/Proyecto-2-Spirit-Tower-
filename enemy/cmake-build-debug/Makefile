@@ -150,6 +150,33 @@ Azul.cpp.s:
 	$(MAKE) -f CMakeFiles/enemy.dir/build.make CMakeFiles/enemy.dir/Azul.cpp.s
 .PHONY : Azul.cpp.s
 
+Chuchu.o: Chuchu.cpp.o
+
+.PHONY : Chuchu.o
+
+# target to build an object file
+Chuchu.cpp.o:
+	$(MAKE) -f CMakeFiles/enemy.dir/build.make CMakeFiles/enemy.dir/Chuchu.cpp.o
+.PHONY : Chuchu.cpp.o
+
+Chuchu.i: Chuchu.cpp.i
+
+.PHONY : Chuchu.i
+
+# target to preprocess a source file
+Chuchu.cpp.i:
+	$(MAKE) -f CMakeFiles/enemy.dir/build.make CMakeFiles/enemy.dir/Chuchu.cpp.i
+.PHONY : Chuchu.cpp.i
+
+Chuchu.s: Chuchu.cpp.s
+
+.PHONY : Chuchu.s
+
+# target to generate assembly for a file
+Chuchu.cpp.s:
+	$(MAKE) -f CMakeFiles/enemy.dir/build.make CMakeFiles/enemy.dir/Chuchu.cpp.s
+.PHONY : Chuchu.cpp.s
+
 Enemigo.o: Enemigo.cpp.o
 
 .PHONY : Enemigo.o
@@ -258,6 +285,60 @@ Node.cpp.s:
 	$(MAKE) -f CMakeFiles/enemy.dir/build.make CMakeFiles/enemy.dir/Node.cpp.s
 .PHONY : Node.cpp.s
 
+Ojo.o: Ojo.cpp.o
+
+.PHONY : Ojo.o
+
+# target to build an object file
+Ojo.cpp.o:
+	$(MAKE) -f CMakeFiles/enemy.dir/build.make CMakeFiles/enemy.dir/Ojo.cpp.o
+.PHONY : Ojo.cpp.o
+
+Ojo.i: Ojo.cpp.i
+
+.PHONY : Ojo.i
+
+# target to preprocess a source file
+Ojo.cpp.i:
+	$(MAKE) -f CMakeFiles/enemy.dir/build.make CMakeFiles/enemy.dir/Ojo.cpp.i
+.PHONY : Ojo.cpp.i
+
+Ojo.s: Ojo.cpp.s
+
+.PHONY : Ojo.s
+
+# target to generate assembly for a file
+Ojo.cpp.s:
+	$(MAKE) -f CMakeFiles/enemy.dir/build.make CMakeFiles/enemy.dir/Ojo.cpp.s
+.PHONY : Ojo.cpp.s
+
+Raton.o: Raton.cpp.o
+
+.PHONY : Raton.o
+
+# target to build an object file
+Raton.cpp.o:
+	$(MAKE) -f CMakeFiles/enemy.dir/build.make CMakeFiles/enemy.dir/Raton.cpp.o
+.PHONY : Raton.cpp.o
+
+Raton.i: Raton.cpp.i
+
+.PHONY : Raton.i
+
+# target to preprocess a source file
+Raton.cpp.i:
+	$(MAKE) -f CMakeFiles/enemy.dir/build.make CMakeFiles/enemy.dir/Raton.cpp.i
+.PHONY : Raton.cpp.i
+
+Raton.s: Raton.cpp.s
+
+.PHONY : Raton.s
+
+# target to generate assembly for a file
+Raton.cpp.s:
+	$(MAKE) -f CMakeFiles/enemy.dir/build.make CMakeFiles/enemy.dir/Raton.cpp.s
+.PHONY : Raton.cpp.s
+
 Rojo.o: Rojo.cpp.o
 
 .PHONY : Rojo.o
@@ -324,6 +405,9 @@ help:
 	@echo "... Azul.o"
 	@echo "... Azul.i"
 	@echo "... Azul.s"
+	@echo "... Chuchu.o"
+	@echo "... Chuchu.i"
+	@echo "... Chuchu.s"
 	@echo "... Enemigo.o"
 	@echo "... Enemigo.i"
 	@echo "... Enemigo.s"
@@ -336,6 +420,12 @@ help:
 	@echo "... Node.o"
 	@echo "... Node.i"
 	@echo "... Node.s"
+	@echo "... Ojo.o"
+	@echo "... Ojo.i"
+	@echo "... Ojo.s"
+	@echo "... Raton.o"
+	@echo "... Raton.i"
+	@echo "... Raton.s"
 	@echo "... Rojo.o"
 	@echo "... Rojo.i"
 	@echo "... Rojo.s"

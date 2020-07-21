@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/grero/CLionProjects/enemy/Azul.h
+Espectro.h
+/cygdrive/c/Users/grero/CLionProjects/enemy/Espectro.h
+
+/cygdrive/c/Users/grero/CLionProjects/enemy/Chuchu.h
+Enemigo.h
+/cygdrive/c/Users/grero/CLionProjects/enemy/Enemigo.h
+
 /cygdrive/c/Users/grero/CLionProjects/enemy/Enemigo.h
 Node.h
 /cygdrive/c/Users/grero/CLionProjects/enemy/Node.h
 LinkedList.h
 /cygdrive/c/Users/grero/CLionProjects/enemy/LinkedList.h
-
-/cygdrive/c/Users/grero/CLionProjects/enemy/Espectro.cpp
-Espectro.h
-/cygdrive/c/Users/grero/CLionProjects/enemy/Espectro.h
 
 /cygdrive/c/Users/grero/CLionProjects/enemy/Espectro.h
 Enemigo.h
@@ -35,12 +39,30 @@ Node.h
 /cygdrive/c/Users/grero/CLionProjects/enemy/Node.h
 string
 -
+iostream
+-
 
 /cygdrive/c/Users/grero/CLionProjects/enemy/Node.h
 cstddef
 -
 string
 -
+
+/cygdrive/c/Users/grero/CLionProjects/enemy/Ojo.cpp
+Ojo.h
+/cygdrive/c/Users/grero/CLionProjects/enemy/Ojo.h
+
+/cygdrive/c/Users/grero/CLionProjects/enemy/Ojo.h
+Espectro.h
+/cygdrive/c/Users/grero/CLionProjects/enemy/Espectro.h
+
+/cygdrive/c/Users/grero/CLionProjects/enemy/Raton.h
+Enemigo.h
+/cygdrive/c/Users/grero/CLionProjects/enemy/Enemigo.h
+
+/cygdrive/c/Users/grero/CLionProjects/enemy/Rojo.h
+Espectro.h
+/cygdrive/c/Users/grero/CLionProjects/enemy/Espectro.h
 
 /cygdrive/c/Users/grero/CLionProjects/enemy/main.cpp
 iostream
@@ -51,4 +73,14 @@ Node.h
 /cygdrive/c/Users/grero/CLionProjects/enemy/Node.h
 Espectro.h
 /cygdrive/c/Users/grero/CLionProjects/enemy/Espectro.h
+Rojo.h
+/cygdrive/c/Users/grero/CLionProjects/enemy/Rojo.h
+Azul.h
+/cygdrive/c/Users/grero/CLionProjects/enemy/Azul.h
+Raton.h
+/cygdrive/c/Users/grero/CLionProjects/enemy/Raton.h
+Chuchu.h
+/cygdrive/c/Users/grero/CLionProjects/enemy/Chuchu.h
+Ojo.h
+/cygdrive/c/Users/grero/CLionProjects/enemy/Ojo.h
 

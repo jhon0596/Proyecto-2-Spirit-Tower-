@@ -11,15 +11,15 @@
 class Enemigo {
 private:
     int campo_vision;
-    Node posicion;
-    LinkedList ruta;
+    Node* posicion;
+    LinkedList* ruta;
 
 public:
     int get_campo_vision();
     void set_campo_vision(int campo);
     void set_posicion(Node *pos);
-    Node get_posicion();
-    LinkedList get_ruta();
+    Node* get_posicion();
+    LinkedList * get_ruta();
     void set_ruta(LinkedList *route);
     void atacar();
 

@@ -8,6 +8,12 @@ CMakeFiles/enemy.dir/Azul.cpp.o
  /cygdrive/c/Users/grero/CLionProjects/enemy/Espectro.h
  /cygdrive/c/Users/grero/CLionProjects/enemy/LinkedList.h
  /cygdrive/c/Users/grero/CLionProjects/enemy/Node.h
+CMakeFiles/enemy.dir/Chuchu.cpp.o
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Chuchu.cpp
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Chuchu.h
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Enemigo.h
+ /cygdrive/c/Users/grero/CLionProjects/enemy/LinkedList.h
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Node.h
 CMakeFiles/enemy.dir/Enemigo.cpp.o
  /cygdrive/c/Users/grero/CLionProjects/enemy/Enemigo.cpp
  /cygdrive/c/Users/grero/CLionProjects/enemy/Enemigo.h
@@ -26,6 +32,19 @@ CMakeFiles/enemy.dir/LinkedList.cpp.o
 CMakeFiles/enemy.dir/Node.cpp.o
  /cygdrive/c/Users/grero/CLionProjects/enemy/Node.cpp
  /cygdrive/c/Users/grero/CLionProjects/enemy/Node.h
+CMakeFiles/enemy.dir/Ojo.cpp.o
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Enemigo.h
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Espectro.h
+ /cygdrive/c/Users/grero/CLionProjects/enemy/LinkedList.h
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Node.h
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Ojo.cpp
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Ojo.h
+CMakeFiles/enemy.dir/Raton.cpp.o
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Enemigo.h
+ /cygdrive/c/Users/grero/CLionProjects/enemy/LinkedList.h
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Node.h
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Raton.cpp
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Raton.h
 CMakeFiles/enemy.dir/Rojo.cpp.o
  /cygdrive/c/Users/grero/CLionProjects/enemy/Enemigo.h
  /cygdrive/c/Users/grero/CLionProjects/enemy/Espectro.h
@@ -34,8 +53,13 @@ CMakeFiles/enemy.dir/Rojo.cpp.o
  /cygdrive/c/Users/grero/CLionProjects/enemy/Rojo.cpp
  /cygdrive/c/Users/grero/CLionProjects/enemy/Rojo.h
 CMakeFiles/enemy.dir/main.cpp.o
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Azul.h
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Chuchu.h
  /cygdrive/c/Users/grero/CLionProjects/enemy/Enemigo.h
  /cygdrive/c/Users/grero/CLionProjects/enemy/Espectro.h
  /cygdrive/c/Users/grero/CLionProjects/enemy/LinkedList.h
  /cygdrive/c/Users/grero/CLionProjects/enemy/Node.h
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Ojo.h
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Raton.h
+ /cygdrive/c/Users/grero/CLionProjects/enemy/Rojo.h
  /cygdrive/c/Users/grero/CLionProjects/enemy/main.cpp
